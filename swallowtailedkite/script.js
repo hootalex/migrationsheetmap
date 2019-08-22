@@ -280,12 +280,12 @@
 var map = new google.maps.Map(document.getElementById("map"), mapOptions);
 
     var kiteicon = {
-        url: "https://cdn.glitch.com/1d1d133b-0dd1-479f-9ca7-422e6021a778%2Fkite-02.svg?v=1566478535713",
+        url: "img/kite.svg",
         scaledSize: new google.maps.Size(30,30)
     }
 
     var homeicon = {
-        url: "https://cdn.glitch.com/1d1d133b-0dd1-479f-9ca7-422e6021a778%2Fkite-01.svg?v=1566478552063",
+        url: "img/home.svg",
         scaledSize: new google.maps.Size(30,30)
     }
 
