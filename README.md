@@ -1,3 +1,3 @@
 # migrationsheetmap
 
-An implementation of tabletop.js and Google Maps to visualize a bird's migratory path with an interactive slider.
+Migrationsheetmap uses Google Maps to visualize a bird's movement with an interactive slider. Easily updated through Google Sheets thanks to tabletop.js.
