@@ -1,0 +1,148 @@
+/* CSS files add styling rules to your content */
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro&display=swap');
+
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+  margin: 10px;
+  text-align: center;
+}
+
+h1 {
+  font-style: italic;
+  color: #373fff;
+}
+
+.mapcontainer {
+position: relative;
+}
+
+.mapcontainer, #map {
+max-width: 800px;
+height: 800px;
+max-height: 70vh;
+margin: auto;
+     }
+
+.slidecontainer {
+max-width: 800px;
+margin: auto;
+padding-top: 5px;
+}
+
+.instructions {
+max-width: 800px;
+margin: auto;
+padding: 20px;
+border-radius: 10px;
+box-sizing: border-box;
+}
+
+.slidecontainer input {
+width: 100%;
+}
+
+#date {
+position: absolute;
+    top: 10px;
+    left: 10px;
+    z-index: 99;
+    font-family: 'Source Code Pro', monospace;
+    font-size: 15px;
+    background-color: #0AA8E3;
+    display: inline-block;
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+    box-shadow: 0px 2px 2px 0px rgba(0,0,0,0.1);
+}
+
+
+
+
+
+input[type=range] {
+  -webkit-appearance: none;
+  width: 100%;
+  margin: 9.55px 0;
+}
+input[type=range]:focus {
+  outline: none;
+}
+input[type=range]::-webkit-slider-runnable-track {
+  width: 100%;
+  height: 5.9px;
+  cursor: pointer;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0), 0px 0px 1px rgba(13, 13, 13, 0);
+  background: #e3dcd3;
+  border-radius: 1px;
+  border: 0px solid rgba(1, 1, 1, 0);
+}
+input[type=range]::-webkit-slider-thumb {
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0), 0px 0px 1px rgba(13, 13, 13, 0);
+  border: 2px solid #ffffff;
+  height: 25px;
+  width: 47px;
+  border-radius: 50px;
+  background: #0AA8E3;
+  cursor: pointer;
+  -webkit-appearance: none;
+  margin-top: -9.55px;
+}
+input[type=range]:focus::-webkit-slider-runnable-track {
+  background: #ede8e3;
+}
+input[type=range]::-moz-range-track {
+  width: 100%;
+  height: 5.9px;
+  cursor: pointer;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0), 0px 0px 1px rgba(13, 13, 13, 0);
+  background: #e3dcd3;
+  border-radius: 1px;
+  border: 0px solid rgba(1, 1, 1, 0);
+}
+input[type=range]::-moz-range-thumb {
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0), 0px 0px 1px rgba(13, 13, 13, 0);
+  border: 2px solid #ffffff;
+  height: 25px;
+  width: 47px;
+  border-radius: 50px;
+  background: #0AA8E3;
+  cursor: pointer;
+}
+input[type=range]::-ms-track {
+  width: 100%;
+  height: 5.9px;
+  cursor: pointer;
+  background: transparent;
+  border-color: transparent;
+  color: transparent;
+}
+input[type=range]::-ms-fill-lower {
+  background: #d9d0c3;
+  border: 0px solid rgba(1, 1, 1, 0);
+  border-radius: 2px;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0), 0px 0px 1px rgba(13, 13, 13, 0);
+}
+input[type=range]::-ms-fill-upper {
+  background: #e3dcd3;
+  border: 0px solid rgba(1, 1, 1, 0);
+  border-radius: 2px;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0), 0px 0px 1px rgba(13, 13, 13, 0);
+}
+input[type=range]::-ms-thumb {
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0), 0px 0px 1px rgba(13, 13, 13, 0);
+  border: 2px solid #ffffff;
+  height: 25px;
+  width: 47px;
+  border-radius: 50px;
+  background: #0AA8E3;
+  cursor: pointer;
+  height: 5.9px;
+}
+input[type=range]:focus::-ms-fill-lower {
+  background: #e3dcd3;
+}
+input[type=range]:focus::-ms-fill-upper {
+  background: #ede8e3;
+}
